@@ -1,8 +1,9 @@
-# CRUD-ReactNodeMySQL
+# vite-CRUD-devices
+### CRUD-ReactNodeMySQL+Angular
 ### Create-Read-Update-Delete 
 
 
-###  This project is made of two main sides. CLIENT and SERVER.  Its dataBase is based on MySQL server.
+###  This project is made of two-plus-one main sides. CLIENT and SERVER, and DATABASE.  Its dataBase is based on MySQL server.
 
 
 ## mySQL server is needed to be set up before running:
@@ -15,7 +16,7 @@ goto server-react/bin/db.js then edit with yours
         host: 'localhost',
         user: 'root',
         password: 'password',
-        database: 'employeeSystem'
+        database: 'devices'
     });
     
 </pre>
@@ -32,14 +33,25 @@ also name , password and all neccessary details are found in the server/index.js
       2. `npm install`
       3. `npm run dev`
 
+### To start run:
 
-### similarly:
+
+      1. `cd client-angular`   
+      2. `npm install`
+      3. `ng serve`
+
+### similarly to the server backend:
 
 
       1. `cd server`   
       2. `npm install`
       3. `nodemon index`
 
+### also for the database:
+
+
+      1. `cd database`   
+      2. `...execute the sql query file in the folder using MySQL...`
 
 > client@0.0.0 dev
 
@@ -54,21 +66,13 @@ also name , password and all neccessary details are found in the server/index.js
 
 ## The form  
 
-![image](https://user-images.githubusercontent.com/50844224/184135078-fdb32d64-d08f-4d32-b651-533624d06246.png)
-
-
-
 
 ## The list  
-
-![image](https://user-images.githubusercontent.com/50844224/184135399-aabe0057-3019-4b6c-8d1c-452e4615f5f1.png)
-
 
 
 
 ## mySQL workbench 
 
-![image](https://user-images.githubusercontent.com/50844224/184136347-1da57a20-0ecc-4d73-b78c-94d9cebfb0dd.png)
 
 
 
